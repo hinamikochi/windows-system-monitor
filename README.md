@@ -230,12 +230,3 @@ build.cmd           # Script build Windows
 Một worker cố định thu thập dữ liệu bằng QTimer; GUI nhận snapshot qua signal.
 Module bị tắt không được polling. Không tạo thread mới mỗi lần cập nhật.
 
-## Phát hành trên GitHub
-
-Commit mã nguồn, tài nguyên, tests và các file hướng dẫn/build vào repository.
-`.gitignore` bỏ qua môi trường ảo, Python portable, cache và thư mục
-`build/`, `dist/`.
-
-Khi tạo release, đính kèm `SystemMonitor.exe` mới nhất và
-`release-info.json` tương ứng trong **Assets**. Người dùng tải executable
-từ Releases; các file ZIP/tar.gz source code GitHub tạo tự động là mã nguồn.
